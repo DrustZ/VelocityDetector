@@ -1,0 +1,335 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DCA208961C888C5600C35BD8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA208951C888C5600C35BD8 /* main.m */; };
+		DCA208991C888C5600C35BD8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA208981C888C5600C35BD8 /* AppDelegate.m */; };
+		DCA2089C1C888C5600C35BD8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA2089B1C888C5600C35BD8 /* ViewController.m */; };
+		DCA2089F1C888C5600C35BD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA2089D1C888C5600C35BD8 /* Main.storyboard */; };
+		DCA208A11C888C5600C35BD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCA208A01C888C5600C35BD8 /* Assets.xcassets */; };
+		DCA208A41C888C5600C35BD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCA208A21C888C5600C35BD8 /* LaunchScreen.storyboard */; };
+		DCA208AC1C888CA100C35BD8 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA208AB1C888CA100C35BD8 /* CoreMotion.framework */; };
+		DCA208AE1C888CA600C35BD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA208AD1C888CA600C35BD8 /* UIKit.framework */; };
+		DCA208B01C888CC200C35BD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA208AF1C888CC200C35BD8 /* Foundation.framework */; };
+		DCA208B31C88977100C35BD8 /* HighpassFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA208B21C88977100C35BD8 /* HighpassFilter.m */; };
+		DCA208B61C889FAC00C35BD8 /* GraphView.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA208B51C889FAC00C35BD8 /* GraphView.m */; };
+		DCA208B91C88A2E900C35BD8 /* GraphVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DCA208B81C88A2E900C35BD8 /* GraphVC.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DCA208911C888C5600C35BD8 /* VelocityDetector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VelocityDetector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCA208951C888C5600C35BD8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DCA208971C888C5600C35BD8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DCA208981C888C5600C35BD8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DCA2089A1C888C5600C35BD8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DCA2089B1C888C5600C35BD8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DCA2089E1C888C5600C35BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DCA208A01C888C5600C35BD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DCA208A31C888C5600C35BD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DCA208A51C888C5600C35BD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DCA208AB1C888CA100C35BD8 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		DCA208AD1C888CA600C35BD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		DCA208AF1C888CC200C35BD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		DCA208B11C88977100C35BD8 /* HighpassFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HighpassFilter.h; sourceTree = "<group>"; };
+		DCA208B21C88977100C35BD8 /* HighpassFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HighpassFilter.m; sourceTree = "<group>"; };
+		DCA208B41C889FAC00C35BD8 /* GraphView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphView.h; sourceTree = "<group>"; };
+		DCA208B51C889FAC00C35BD8 /* GraphView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphView.m; sourceTree = "<group>"; };
+		DCA208B71C88A2E900C35BD8 /* GraphVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphVC.h; sourceTree = "<group>"; };
+		DCA208B81C88A2E900C35BD8 /* GraphVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DCA2088E1C888C5600C35BD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA208B01C888CC200C35BD8 /* Foundation.framework in Frameworks */,
+				DCA208AE1C888CA600C35BD8 /* UIKit.framework in Frameworks */,
+				DCA208AC1C888CA100C35BD8 /* CoreMotion.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DCA208881C888C5600C35BD8 = {
+			isa = PBXGroup;
+			children = (
+				DCA208931C888C5600C35BD8 /* VelocityDetector */,
+				DCA208921C888C5600C35BD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DCA208921C888C5600C35BD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DCA208911C888C5600C35BD8 /* VelocityDetector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DCA208931C888C5600C35BD8 /* VelocityDetector */ = {
+			isa = PBXGroup;
+			children = (
+				DCA208971C888C5600C35BD8 /* AppDelegate.h */,
+				DCA208981C888C5600C35BD8 /* AppDelegate.m */,
+				DCA2089A1C888C5600C35BD8 /* ViewController.h */,
+				DCA2089B1C888C5600C35BD8 /* ViewController.m */,
+				DCA208B11C88977100C35BD8 /* HighpassFilter.h */,
+				DCA208B21C88977100C35BD8 /* HighpassFilter.m */,
+				DCA208B41C889FAC00C35BD8 /* GraphView.h */,
+				DCA208B51C889FAC00C35BD8 /* GraphView.m */,
+				DCA208B71C88A2E900C35BD8 /* GraphVC.h */,
+				DCA208B81C88A2E900C35BD8 /* GraphVC.m */,
+				DCA2089D1C888C5600C35BD8 /* Main.storyboard */,
+				DCA208A01C888C5600C35BD8 /* Assets.xcassets */,
+				DCA208A21C888C5600C35BD8 /* LaunchScreen.storyboard */,
+				DCA208A51C888C5600C35BD8 /* Info.plist */,
+				DCA208941C888C5600C35BD8 /* Supporting Files */,
+			);
+			path = VelocityDetector;
+			sourceTree = "<group>";
+		};
+		DCA208941C888C5600C35BD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DCA208AF1C888CC200C35BD8 /* Foundation.framework */,
+				DCA208AD1C888CA600C35BD8 /* UIKit.framework */,
+				DCA208AB1C888CA100C35BD8 /* CoreMotion.framework */,
+				DCA208951C888C5600C35BD8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DCA208901C888C5600C35BD8 /* VelocityDetector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DCA208A81C888C5600C35BD8 /* Build configuration list for PBXNativeTarget "VelocityDetector" */;
+			buildPhases = (
+				DCA2088D1C888C5600C35BD8 /* Sources */,
+				DCA2088E1C888C5600C35BD8 /* Frameworks */,
+				DCA2088F1C888C5600C35BD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VelocityDetector;
+			productName = VelocityDetector;
+			productReference = DCA208911C888C5600C35BD8 /* VelocityDetector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DCA208891C888C5600C35BD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "明瑞";
+				TargetAttributes = {
+					DCA208901C888C5600C35BD8 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = DCA2088C1C888C5600C35BD8 /* Build configuration list for PBXProject "VelocityDetector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DCA208881C888C5600C35BD8;
+			productRefGroup = DCA208921C888C5600C35BD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DCA208901C888C5600C35BD8 /* VelocityDetector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DCA2088F1C888C5600C35BD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA208A41C888C5600C35BD8 /* LaunchScreen.storyboard in Resources */,
+				DCA208A11C888C5600C35BD8 /* Assets.xcassets in Resources */,
+				DCA2089F1C888C5600C35BD8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DCA2088D1C888C5600C35BD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCA2089C1C888C5600C35BD8 /* ViewController.m in Sources */,
+				DCA208B91C88A2E900C35BD8 /* GraphVC.m in Sources */,
+				DCA208B61C889FAC00C35BD8 /* GraphView.m in Sources */,
+				DCA208B31C88977100C35BD8 /* HighpassFilter.m in Sources */,
+				DCA208991C888C5600C35BD8 /* AppDelegate.m in Sources */,
+				DCA208961C888C5600C35BD8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DCA2089D1C888C5600C35BD8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA2089E1C888C5600C35BD8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DCA208A21C888C5600C35BD8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DCA208A31C888C5600C35BD8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DCA208A61C888C5600C35BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DCA208A71C888C5600C35BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DCA208A91C888C5600C35BD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VelocityDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Drust.VelocityDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DCA208AA1C888C5600C35BD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VelocityDetector/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Drust.VelocityDetector;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DCA2088C1C888C5600C35BD8 /* Build configuration list for PBXProject "VelocityDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA208A61C888C5600C35BD8 /* Debug */,
+				DCA208A71C888C5600C35BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DCA208A81C888C5600C35BD8 /* Build configuration list for PBXNativeTarget "VelocityDetector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DCA208A91C888C5600C35BD8 /* Debug */,
+				DCA208AA1C888C5600C35BD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DCA208891C888C5600C35BD8 /* Project object */;
+}
